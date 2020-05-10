@@ -22,8 +22,13 @@ $ pip install -r requirements.txt
 Start development server:
 
 ```bash
-$ cd rest
+$ cd pure-django
 $ ./manage.py runserver
 ```
 
-# Testing notes
+# Unit testing
+
+```bash
+$ cd pure-django
+$ ./manage.py test
+```
