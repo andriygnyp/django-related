@@ -156,14 +156,15 @@ Response:
   ]
 }
 ```
+</details>
 
-## Notes
+# Implementation notes
 
 Typical [CRUD model](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) requires at least two additional methods: `update` and `delete`.
 
 They are not requested, so, they are not implemented.
 
 Endpoint
-**GET** */categories/* (without parameters) is not requested.
+**GET** */categories/* (without parameters) is not requested, so, not implemented.
 
-
+Primary keys are different from exaample due to optimization of saving procedure.
